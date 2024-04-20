@@ -42,14 +42,14 @@ const App = () => {
       label:"Email",
       required:true
     },
-    {
+    { 
       id:4,
       name:"password",
       type:"password",
       placeholder:"Password",
       errorMessage:"please enter atleast 8 characters with number, symbol ",
       label:"Password",
-      pattern:`^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}$`,
+      pattern:`^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*-_+?=|~.[];:{}])[a-zA-Z0-9!@#$%^&*-_+?=|~.[];:{}]{8,20}$`,
       required:true
     },
     {
