@@ -1,15 +1,11 @@
-body{
-    overflow: ;
-}
-
 .app{
     display: flex;
-    padding: 1.8rem 0;
+    /* git  */
+    margin: auto;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #ccc;
-    background-size: cover;
 }
 
 form{
